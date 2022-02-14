@@ -2,13 +2,7 @@
 <body>
 	<div class="container">
 		<div class="row mt-5">
-			<div class="col-md-3">
-				Show: 
-				<select name="" id="entry">
-					<option value="5">5</option>
-				</select>
-				entries
-			</div>
+			<div class="col-md-4"></div>
 			<div class="col-md-4"></div>
 			<div class="col-md-4 mt-2">
 				Search : <input type="text" name="search" id="search" style="height:30px; border:2px solid">
@@ -51,7 +45,7 @@
 			});	
 			//pagination
 			function loadTable(page) {
-				var limit = $("#entry").val();
+				var limit = 5;
 				$.ajax({
 					url: "ajax-pagination.php",
 					type: "POST",
