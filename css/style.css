@@ -1,0 +1,26 @@
+#body {
+	background-color: aliceblue;
+	min-height: 300px;
+	margin-left: 0 auto solid #ddd;
+	text-align: center;
+}
+#pagination {
+	justify-content: right;
+	display: flex;
+	margin-top: 5px;
+}
+.active{
+	background-color: brown;
+}
+a {
+	border: 1px solid black;
+	margin-left: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+a:link {
+	text-decoration: none;
+}
+
